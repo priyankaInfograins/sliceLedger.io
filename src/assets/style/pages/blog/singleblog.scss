@@ -1,0 +1,33 @@
+.single_blog_wrap{
+    padding: 50px 0px 100px 0px;
+    .single_blog_card{
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 5px hsl(0deg 0% 50% / 46%);
+        // height: 420px;
+        transition: all .2s;
+         .blog_img{
+            img{
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+            }
+         }
+         .blog_content{
+            padding: 15px;
+             .blog_heading{
+                font-size: 22px;
+                color: #a30b9d;
+                font-weight: 600;
+             }
+             .blog_para{
+                color: #383838;
+    padding: 8px 0px;
+    margin-bottom: 5px;
+             }
+             .blog_readMore_btn{
+                text-decoration: none;
+                color: #00a5bb;
+             }
+         }
+    }
+}

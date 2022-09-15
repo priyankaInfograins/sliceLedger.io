@@ -1,0 +1,33 @@
+.main_container {
+    // text-align: justify;
+    padding: 50px;
+    font-size: 15.5px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    height: 700px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    h4 {
+        font-weight: bold;
+        margin-top: 36px;
+        margin-bottom: 23px;
+    }
+
+    h6 {
+        font-weight: bold;
+    }
+    p{
+        text-align: justify
+    }
+
+
+
+}
+
+@media (min-width:320px) and (max-width:425px) {
+
+    .main_container {
+        padding: 12px;
+        font-size: 13.5px;
+    }
+}

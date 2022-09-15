@@ -1,0 +1,54 @@
+.network_section {
+    padding: 12px;
+    margin: 5em;
+
+    .network_section_main {
+        .card {
+            padding: 27px;
+            box-shadow: 0 25px 50px rgb(0 73 171 / 5%);
+            background: #fff;
+            height: 500px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            transform: translateZ(0);
+            transition: all 0.3s ease-in-out;
+            border: 0px;
+            // margin-right: 12px;
+            // margin-left: 12px;
+            margin-bottom: 30px;
+            h4{
+                margin-top: 3em;
+                font-weight: bold;
+            }
+            p{
+                text-align: center;
+                margin-top: 11px;
+            }
+
+
+            &:hover{
+                // box-shadow: 0px 8px 15px rgb(7 100 255 / 40%);
+                box-shadow:0px 8px 15px rgb(203 85 225 / 40%);
+                // box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+                transform: translateY(-7px);
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1023px){
+    .network_section{
+        margin: 1rem 0rem;
+        .network_section_main {
+            .card{
+                height: auto;
+            }
+        }
+    }
+}
+@media (min-width:992px) and (max-width:1200px){
+    .network_section{
+        margin: 2rem;
+    }
+}

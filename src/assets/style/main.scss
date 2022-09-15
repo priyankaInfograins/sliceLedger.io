@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+}
+
+@import url('./common/header.scss');
+@import url('./pages/landing/index.scss');
+@import url('./common/footer.scss');
+@import url('./pages/enterprise/index.scss');
+@import url('./common/doc_header.scss');
+@import url('./pages/network/index.scss');
+@import url('./pages/research/index.scss');
+@import url('./pages//term_condition/index.scss');
+@import url('./pages//private_policy/private_policy.scss');
+@import url('./pages/blog/blog.scss');
+@import url("./pages/modal/meetstyle.scss");
+@import url("./pages/blog/singleblog.scss");

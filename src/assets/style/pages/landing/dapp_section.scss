@@ -1,0 +1,365 @@
+.dapp_section {
+    margin-top: 7em;
+    position: relative;
+
+    .bouncing_ball {
+        background-color: rgb(160 21 152 / 30%);
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        transform: translatey(0px);
+        animation: float 2s ease-in-out infinite;
+        margin-bottom: 12px;
+        position: absolute;
+        left: 5%;
+        top: 13%;
+        z-index: 1;
+        @keyframes float {
+            0% {
+
+                transform: translatey(0px);
+            }
+
+            50% {
+
+                transform: translatey(-16px);
+            }
+
+            100% {
+
+                transform: translatey(0px);
+            }
+        }
+       
+    }
+
+    .bouncing_ball1 {
+        background-color: #7c14ef42;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        transform: translatey(0px);
+        animation: float 2s ease-in-out infinite;
+        margin-bottom: 12px;
+        position: absolute;
+        right: 12%;
+        top: 27%;
+        z-index: 1;
+        @keyframes float {
+            0% {
+
+                transform: translatey(0px);
+            }
+
+            50% {
+
+                transform: translatey(-16px);
+            }
+
+            100% {
+
+                transform: translatey(0px);
+            }
+        }
+       
+    }
+
+    .bouncing_ball2 {
+     background-color: rgb(160 21 152 / 30%);
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: translatey(0px);
+    animation: float 2s ease-in-out infinite;
+    margin-bottom: 12px;
+    position: absolute;
+    right: 47%;
+    bottom: 0;
+    z-index: 1;
+        @keyframes float {
+            0% {
+
+                transform: translatey(0px);
+            }
+
+            50% {
+
+                transform: translatey(-16px);
+            }
+
+            100% {
+
+                transform: translatey(0px);
+            }
+        }
+       
+    }
+
+    .dapp_code_section {
+        background-color: #021943;
+        border-radius: 18px;
+        padding: 18px 0px 100px 18px;
+        color: white;
+        box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+        font-size: 12px;
+
+        .code_highlight {
+            .code_line {
+                .token_keyword {
+                    color: red;
+                }
+                .token_version_number{
+                    color: #116329;
+                }
+            }
+        }
+
+    }
+
+.dapp_code_section{
+    
+    .red{
+        color: red;
+        letter-spacing: 1px;
+    }
+    .green{
+        color: #116329;
+        letter-spacing: 1px;
+    }
+    .blue{
+        color:#0e52d1;
+        letter-spacing: 1px;
+    }
+    .purple{
+        color: #9146e3;
+        letter-spacing: 1px;
+    }
+    .dark_blue{
+        color: #043d76;
+        letter-spacing: 1px;
+    }
+    .gray{
+        color:#6c757d;
+        letter-spacing: 1px;
+    }
+    .line1{
+        padding: 10px 0px 0px 5px;
+    }
+    .line2{
+        padding: 20px 60px;
+    }
+    .line3{
+        padding: 0px 0px 20px 99px;
+    }
+    .line4{
+        padding: 0px 0px 20px 99px;
+    }
+    .line5{
+        padding: 0px 0px 20px 99px;
+    }
+    .line6{
+        padding: 0px 0px 20px 99px;
+    }
+    .line7{
+        padding: 0px 0px 20px 60px;
+    }
+    .line8{
+        padding: 0px 0px 20px 99px;
+    }
+    .line9{
+        padding: 0px 0px 20px 60px;
+    }
+    .line10{
+        padding: 0px 0px 0px 60px;
+    }
+}
+    .dapp_content_section {
+        padding: 39px;
+
+        span {
+            color: purple;
+        }
+
+        h2 {
+            margin-top: 12px;
+            font-weight: bold;
+        }
+
+        p {
+            margin-top: 17px;
+            font-size: 19px;
+        }
+        .developer_link{
+            margin-top: 50px;
+            a {
+                font-size: 20px;
+                padding: 12px 39px;
+                // background: linear-gradient(45deg, #7c14ef, #a30b9d);
+                color: rgb(7, 7, 7);
+                background-color: white;
+                font-weight: 500;
+                border: 1.5px solid  #a30b9d;
+                border-radius: 10px;
+                text-decoration: none;
+              
+                // background-color: #4E6A3D;
+    
+                &:hover{
+                      background: linear-gradient(45deg, #7c14ef, #a30b9d);
+                      color: white;
+                }
+            }
+        }
+
+     
+    }
+
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .dapp_section {
+        .bouncing_ball1{
+            top: 55%;
+        }
+        .dapp_content_section {
+            p {
+                font-size: 16px;
+            }
+            .developer_link{
+                a {
+                    font-size: 18px;
+                    padding: 12px 20px;
+                }
+            }
+           
+        }
+
+    }
+
+}
+
+@media screen and (max-width:374px){
+    .dapp_section{
+        .dapp_code_section{
+            .line2 {
+                padding: 20px 26px;
+                line-height: 28px;
+            }
+            .line3{
+                padding: 0px 0px 20px 50px;
+            }
+            .line4{
+                padding: 0px 0px 20px 50px !important; 
+            }
+            .line5{
+                padding: 0px 0px 20px 50px;
+            }
+            .line6{
+                padding: 0px 0px 20px 50px;
+            }
+            .line7 {
+                padding: 0px 0px 20px 25px;
+                line-height: 30px;
+            }
+            .line8{
+                padding: 0px 0px 20px 50px;
+                line-height: 30px;
+            }
+            .line9{
+                padding: 0px 0px 20px 25px;
+            }
+            .line10{
+                padding: 0px 0px 0px 25px;
+                line-height: 30px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:319px){
+   
+    .dapp_section {
+        margin-top: 4em;
+      
+    
+        .bouncing_ball {
+            top: -15px;
+           
+        }
+    
+        .bouncing_ball1 {
+            background-color: #7c14ef42;
+            width: 25px;
+            height: 25px;
+            right: 11%;
+            top: 702px;
+        }
+    
+        .bouncing_ball2 {
+            left: 20px;
+            bottom: -16px;
+        }
+    
+    .dapp_code_section{
+    
+        .line1{
+            padding: 0px 0px 0px 0px;
+        }
+        .line2{
+            padding: 10px 0px;
+        }
+
+        .line3{
+            padding: 0px 0px 20px 0px;
+        }
+
+        .line4{
+            padding: 0px 0px 20px 0px !important;
+        }
+        .line5{
+            padding: 0px 0px 20px 0px;
+        }
+        .line6{
+            padding: 0px 0px 20px 0px;
+        }
+        .line7{
+            padding: 0px 0px 20px 0px;
+        }
+        .line8{
+            padding: 0px 0px 20px 0px;
+        }
+        .line9{
+            padding: 0px 0px 20px 0px;
+        }
+        .line10{
+            padding: 0px 0px 0px 0px;
+        }
+    }
+        .dapp_content_section {
+
+            h2 {
+                font-size: 22px;
+            }
+    
+            p {
+                margin-top: 13px;
+                font-size: 14px;
+                line-height: 25px;
+                text-align: justify;
+            }
+            .developer_link{
+                margin-top: 50px;
+                a {
+                    font-size: 12px;
+                }
+            }
+    
+         
+        }
+    
+    }
+
+}
+
+

@@ -1,0 +1,104 @@
+.doc_main_herder {
+    .doc_header_section {
+        background-color: white;
+
+        .site_nav {
+            .site_logo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                img {
+                    width: 70px;
+                    transform: rotate(2deg);
+
+                }
+
+                p {
+                    margin: 0%;
+                    font-weight: bold;
+                    color: #000000cc;
+                    font-size: 1.5em;
+                }   
+            }
+
+            .navbar-collapse {
+                justify-content: center;
+                .headerbutton_nav {
+                    .headerbutton {
+                        color: #000000cc;
+                        text-decoration: none;
+                        font-weight: bold;
+                        // background: linear-gradient(45deg, #7c14ef, #a30b9d);
+                        border: 1px solid #a30b9d;
+                        padding: 10px 18px;
+                        border-radius: 25px;
+
+                        &:hover {
+                            background: linear-gradient(45deg, #a30b9d, #7c14ef);
+                       color: white;
+                        }
+
+                        @media (min-width:1200px) and (max-width: 1399px){
+                            padding: 10px 8px;
+                            border-radius: 25px;
+                            font-size: 15px;
+                        }
+                    }
+
+                }
+
+                .navbar-nav {
+                    justify-content: space-between;
+
+                    a {
+                        color: #000000cc;
+                        margin: 0px 20px;
+
+                        svg {
+                            font-size: 1.5em;
+                            margin-left: 10px;
+                        }
+                    }
+
+
+                }
+            }
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 991px) {
+    .doc_main_herder {
+        .doc_header_section {
+            padding: 0px;
+
+            .site_nav {
+
+                .menu_bar {
+                    display: block;
+                }
+            }
+
+            .navbar-collapse {
+                .headerbutton_nav {
+                    display: none
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width:"374px") {
+    .doc_main_herder .doc_header_section .site_nav .site_logo p{
+        font-size: 1.3em;
+    }
+}
+@media (min-width:992px) and (max-width: 1200px){
+    .doc_main_herder .doc_header_section .site_nav .navbar-collapse .navbar-nav a {
+         margin: 0px;
+    }
+}

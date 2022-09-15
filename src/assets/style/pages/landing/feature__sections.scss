@@ -1,0 +1,123 @@
+.feature_section {
+    margin-top: -150px;
+    position: relative;
+    z-index: 5;
+    .feature_content {
+        .feature_marque {
+            box-shadow: 0 3px 10px rgb(0 0 0 / 20%);
+            border-radius: 30px;
+            background-color: rgb(128 128 128 / 24%);
+            backdrop-filter: blur(24px);
+            transition: .6s;
+            display: flex;
+            justify-content: space-evenly;
+            height: 190px;
+
+            .marque_content {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 10px;
+
+                b {
+                    font-weight: 900;
+                    font-size: 2em;
+                    color: white;
+                }
+
+                p {
+                    text-align: center;
+                    font-size: 14px;
+                    color: white;
+                }
+            }
+
+            &:hover {
+                transform: translate(0, -5%);
+            }
+
+
+        }
+    }
+
+
+
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+    .feature_section {
+        margin-top: -128px;
+        .feature_content {
+            .feature_marque {
+                height: 159px;
+                .marque_content {
+                    b {
+                        font-size: 1.5em;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    
+    }
+}
+
+
+@media screen and (min-device-width: 320px) and (max-device-width: 425px) {
+    .feature_section {
+        margin-top: -302px;
+        .feature_content {
+            .feature_marque {
+                height: 337px;
+                flex-wrap: wrap;
+                padding: 12px;
+                .marque_content {
+                    b {
+                        font-size: 1.3em;
+                    }
+                    p {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    
+    }
+}
+
+
+@media screen and (max-device-width:319px) {
+
+    .feature_section {
+        
+        .feature_content {
+            .feature_marque {
+                flex-wrap: wrap;
+                // flex-direction: column;
+                .marque_content {
+                
+                    b {
+                        font-size: 1.5em;
+                    }
+    
+                    p {
+                       
+                        font-size: 12px;
+                   
+                    }
+                }
+    
+              
+    
+    
+            }
+        }
+    
+    
+    
+    }
+}
