@@ -9,7 +9,6 @@ import Footer from './common/Footer';
 import Term_Conditions from './pages/termandconditions/Term_Conditions';
 import Private_Policy from './pages/private_policy/Private_Policy';
 import Blog from './pages/blog/Blog'
-
 import SingleBlog from './pages/blog/SingleBlog';
 
 
@@ -38,4 +37,7 @@ function App() {
 }
 
 export default App;
+
+
+// change by bharti 
 
