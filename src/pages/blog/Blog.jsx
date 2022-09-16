@@ -1,13 +1,17 @@
-import React from 'react'
+import React,{useEffect} from 'react'
 import { Col, Container, Image, Row } from 'react-bootstrap'
 import Blog_img from '../../assets/images/blog.png'
 import Header from '../../common/DocHeader';
 import HeroSection from '../HeroSection';
 
 export default function Blog() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0)
+      }, [])
+
     return (
         <>
-
             <Header />
             <HeroSection heading='Blog' />
             <section className='blog_section'>

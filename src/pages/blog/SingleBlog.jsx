@@ -1,5 +1,4 @@
 import React from 'react'
-import Footer from '../../common/Footer'
 import Header from '../../common/DocHeader'
 import HeroSection from '../HeroSection'
 import { Container, Row, Col } from 'react-bootstrap'
@@ -7,6 +6,8 @@ import Blog_img from '../../assets/images/blog.png'
 import {Link} from 'react-router-dom';
 
 function SingleBlog() {
+
+
   return (
     <>
         <Header/>

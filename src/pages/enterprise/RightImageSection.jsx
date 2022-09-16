@@ -27,7 +27,7 @@ export default function RightImageSection(props) {
                                 <p>
                                {props.content}
                                 </p>
-                                <a href={props.btnLink} target="_blank">{props.btnContent}</a>
+                                <a className='websitelink' href={props.btnLink} target="_blank">{props.btnContent}</a>
                             </div>
 
                     </Col>

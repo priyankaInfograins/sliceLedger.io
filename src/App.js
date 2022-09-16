@@ -10,6 +10,7 @@ import Term_Conditions from './pages/termandconditions/Term_Conditions';
 import Private_Policy from './pages/private_policy/Private_Policy';
 import Blog from './pages/blog/Blog'
 import SingleBlog from './pages/blog/SingleBlog';
+import Faucet from './pages/faucet/Faucet'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
           <Route path="/private_policy" element={<Private_Policy/>}/>
           <Route path="/blog" element={<SingleBlog/>}/>
           <Route path="/blog/sliceLedger-at-gitex-event" element={<Blog/>}/>
+          <Route path="/faucet" element={<Faucet/>}/>
        </Routes>
         <Footer />
   
